@@ -24,12 +24,3 @@ mongo.connect(db.url, { useNewUrlParser: true, useUnifiedTopology: true }, (err,
 
 app.use(body.urlencoded({ extended: false }));
 app.use(body.json());
-
-
-// app.use("/weight", require("./route"));
-
-// // app.use('/menu',require('./routemenu'));app.listen(3000, () => {
-//  console.log("Your port");
-// });app.get("/", (req, res) => {
-//  res.send("Hey Varun");
-// });// module.exports(app)
