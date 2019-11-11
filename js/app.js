@@ -21,6 +21,8 @@ function uploadData(){
     var atposition=email[0].value.indexOf("@");  
     var dotposition=email[0].value.lastIndexOf(".");  
 
+   
+
     if(Weight > DesiredWeight){
         a = Weight
         b = DesiredWeight;
@@ -44,7 +46,7 @@ function uploadData(){
     }
     else if(!(password[0].value === Repassword[0].value)){
 
-        alert("Password does not matchs"); 
+        alert("Password does not match"); 
     }
     else if ( ((a - b) < 0 ) && ((a -b) >= 20 ) ){
 
