@@ -45,7 +45,6 @@ module.exports = (app, db) => {
                         console.log(result);
                         userData=result;
                         res.status(200).json({msg:"User Exist"});
-                        test();
                     }
                 });
             
